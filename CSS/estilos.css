@@ -1,0 +1,102 @@
+
+body
+{
+    background:linear-gradient(to right,#12708154,#1d96e669),
+    url("../Imagenes/fondo.png");
+}
+
+.flex-container
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+#cabecera
+{
+    width:600px;
+    height:60px;
+    margin-top: 50px;
+    background:#3F51B8;
+    padding:10px;
+    border-radius: 15px;
+}
+
+#cabecera h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    font-size: 40px;
+    color:#FFFCFF;
+}
+
+div ul
+{
+    min-height: 250px;
+    overflow: scroll;
+    list-style: none;
+}
+
+.flex-container #listado
+{
+    height: 120px;
+    width: 600px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+}
+
+.flex-container .caja-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius:15px;
+    background-color: #FFFCFF;
+}
+
+.caja-form #boton
+{
+    width:65px;
+    height:65px;
+    border-radius: 65%;
+    font-size:30px;
+    color: #FFFCFF;
+    background-color:#3F51B8;
+    cursor: pointer;
+}
+
+.caja-form #formulario
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-form #formulario input
+{
+    display: inline-block;
+    width:50%;
+    padding: 15px;
+    border: none;
+    text-align: center;
+    color:rgb(105, 104, 104);
+    font-size: 15px;
+    margin: 5px;
+}
+
+.caja-form #formulario input:focus
+{
+    outline: none;
+    border-bottom:2px solid #3F51B8;
+}
